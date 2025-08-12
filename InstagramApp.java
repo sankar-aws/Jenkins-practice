@@ -28,6 +28,7 @@ public class InstagramApp {
                     System.out.println("✅ Photo posted!");
                     System.out.println("✅ story posted!");
                     System.out.println("✅ status posted!");
+                    System.out.println("✅ hot posted!");
                     break;
 
                 case "2":
