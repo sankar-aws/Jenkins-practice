@@ -26,9 +26,6 @@ public class InstagramApp {
                     String caption = sc.nextLine();
                     posts.add("📸 " + caption);
                     System.out.println("✅ Photo posted!");
-                    System.out.println("✅ story posted!");
-                    System.out.println("✅ status posted!");
-                    System.out.println("✅ hot posted!");
                     break;
 
                 case "2":
