@@ -40,7 +40,7 @@ public class InstagramApp {
                     break;
 
                 case "3":
-                    System.out.println("👋 Goodbye!");
+                    System.out.println("bye bye!");
                     break;
 
                 default:
