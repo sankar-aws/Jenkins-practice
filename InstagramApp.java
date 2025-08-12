@@ -26,11 +26,13 @@ public class InstagramApp {
                     String caption = sc.nextLine();
                     posts.add("📸 " + caption);
                     System.out.println("✅ Photo posted!");
+                    System.out.println("✅ story posted!");
                     break;
 
                 case "2":
                     if (posts.isEmpty()) {
                         System.out.println("No posts yet!");
+                        System.out.println("No Story");
                     } else {
                         System.out.println("\n--- All Posts ---");
                         for (int i = 0; i < posts.size(); i++) {
@@ -41,6 +43,7 @@ public class InstagramApp {
 
                 case "3":
                     System.out.println("bye bye!");
+                    System.out.println("Nakku");
                     break;
 
                 default:
