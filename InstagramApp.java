@@ -11,7 +11,7 @@ public class InstagramApp {
         Scanner sc = new Scanner(System.in);
         String choice;
 
-        System.out.println("=== Welcome to instagram CLI ===");
+        System.out.println("=== Welcome to instagram GUI ===");
 
         do {
             System.out.println("\n1. Post a photo");
