@@ -4,82 +4,20 @@
 <head>
     <title>Mini Instagram</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fafafa;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #fff;
-            border-bottom: 1px solid #dbdbdb;
-            padding: 15px 20px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: #262626;
-        }
-
-        .container {
-            width: 400px;
-            margin: 30px auto;
-        }
-
-        .post-form {
-            background-color: #fff;
-            border: 1px solid #dbdbdb;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-        }
-
-        .post-form input[type="text"] {
-            width: 80%;
-            padding: 10px;
-            margin-right: 5px;
-            border: 1px solid #dbdbdb;
-            border-radius: 4px;
-        }
-
-        .post-form button {
-            padding: 10px 15px;
-            border: none;
-            background-color: #3897f0;
-            color: white;
-            font-weight: bold;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .feed {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .post-card {
-            background-color: #fff;
-            border: 1px solid #dbdbdb;
-            border-radius: 6px;
-            padding: 10px 15px;
-        }
-
-        .post-card p {
-            margin: 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            color: #999;
-            font-size: 12px;
-        }
+        body { font-family: Arial, sans-serif; background-color: #fafafa; margin: 0; padding: 0; }
+        header { background-color: #fff; border-bottom: 1px solid #dbdbdb; padding: 15px 20px; text-align: center; font-size: 24px; font-weight: bold; color: #262626; }
+        .container { width: 400px; margin: 30px auto; }
+        .post-form { background-color: #fff; border: 1px solid #dbdbdb; padding: 15px; margin-bottom: 20px; border-radius: 6px; }
+        .post-form input[type="text"] { width: 80%; padding: 10px; margin-right: 5px; border: 1px solid #dbdbdb; border-radius: 4px; }
+        .post-form button { padding: 10px 15px; border: none; background-color: #3897f0; color: white; font-weight: bold; border-radius: 4px; cursor: pointer; }
+        .feed { display: flex; flex-direction: column; gap: 15px; }
+        .post-card { background-color: #fff; border: 1px solid #dbdbdb; border-radius: 6px; padding: 10px 15px; }
+        .post-card p { margin: 0; }
+        footer { text-align: center; padding: 15px; color: #999; font-size: 12px; }
     </style>
 </head>
 <body>
 <header>Mini Instagram</header>
-
 <div class="container">
     <div class="post-form">
         <form method="post" action="/">
@@ -87,7 +25,6 @@
             <button type="submit">Post</button>
         </form>
     </div>
-
     <div class="feed">
         <c:forEach var="p" items="${posts}">
             <div class="post-card">
@@ -96,7 +33,6 @@
         </c:forEach>
     </div>
 </div>
-
 <footer>Mini Instagram Demo</footer>
 </body>
 </html>
