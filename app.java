@@ -1,3 +1,6 @@
+@WebServlet("/")  // maps root path
+public class App extends HttpServlet {
+
 package com.example.instagram;
 
 import jakarta.servlet.ServletException;
@@ -32,4 +35,5 @@ public class App extends HttpServlet {
         }
         response.sendRedirect("app");
     }
+}
 }
