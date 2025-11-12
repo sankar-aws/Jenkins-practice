@@ -1,0 +1,21 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://jakarta.ee/xml/ns/jakartaee
+                             http://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <display-name>Mini Instagram</display-name>
+
+    <!-- Servlet definition -->
+    <servlet>
+        <servlet-name>App</servlet-name>
+        <servlet-class>com.example.instagram.App</servlet-class>
+    </servlet>
+
+    <!-- Servlet mapping to root path -->
+    <servlet-mapping>
+        <servlet-name>App</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
